@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import ResultModal from "./ResultModal";
 
-export default function TimerChallange(props) {
+export default function TimerChallenge(props) {
   const { title, targetTime } = props;
   const [timeRemaining, setTimeRemaining] = useState(targetTime * 1000);
 
